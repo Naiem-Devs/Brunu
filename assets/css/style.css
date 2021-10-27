@@ -1,0 +1,409 @@
+@import url("https://fonts.googleapis.com/css2?family=Prata&family=Syne:wght@400;500;600;700&display=swap");
+
+/* font-family: 'Prata', serif;
+font-family: 'Syne', sans-serif; */
+
+/* Base CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a:focus {
+  outline: 0 solid;
+}
+
+/* img {
+  max-width: 100%;
+  height: auto;
+} */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 15px;
+  color: #303033;
+  font-weight: 900;
+}
+body {
+  /* color: #787878; */
+  font-weight: 400;
+  /* font-size: 16px; */
+  background-color: #eeede6;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+.custom-container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* navabr section start  */
+.navbar {
+  padding-top: 5rem;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.nav-left img {
+  max-width: 350px;
+  width: 100%;
+  height: auto;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.nav-right img {
+  max-width: 60px;
+  width: 100%;
+  height: auto;
+  margin-top: -1rem;
+}
+
+/* navabr section end */
+
+/* hero section start */
+.bruno-hero {
+  padding-top: 5rem;
+}
+
+.hero-element {
+  position: relative;
+}
+
+.hero-element p {
+  font-size: 9.5rem;
+  text-align: left;
+  color: #000000;
+  font-family: "Prata", serif;
+  text-transform: uppercase;
+}
+
+.hero-element p span a {
+  color: #ed6b23;
+}
+
+.hero-element img {
+  position: absolute;
+  max-width: 120px;
+  width: 100%;
+  height: auto;
+  bottom: 0;
+  right: 100px;
+}
+
+/* hero section end */
+
+/* hero-down section end */
+
+.hero-down {
+  padding-top: 10rem;
+  padding-bottom: 5rem;
+}
+
+.hero-down-img {
+  margin-top: 5rem;
+  margin-left: 4rem;
+  position: relative;
+  width: max-content;
+}
+
+.hero-down-img img {
+  max-width: 300px;
+  width: 100%;
+}
+
+.hero-down-img .circle {
+  max-width: 100px;
+  position: absolute;
+  top: -55px;
+  right: 30px;
+}
+
+img.circle.circle_ani {}
+
+.hero-down-left p {
+  text-align: left;
+  font-family: "Syne", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  padding-right: 11rem;
+  margin-top: 12rem;
+}
+
+.hero-down-left p span {
+  color: #4f8c54;
+}
+
+.hero-down-right p {
+  font-family: "Syne", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: uppercase;
+  padding-right: 6rem;
+}
+
+.hero-down-right p span {
+  color: #ed6b23;
+}
+
+/* hero-down section end */
+
+/* questo section start */
+
+.questo {
+  padding: 10rem 0;
+}
+
+.questo-element {
+  position: relative;
+}
+
+.questo-element p {
+  font-family: "Prata", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 42px;
+  line-height: 57px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.questo-element p span {
+  display: block;
+}
+
+.questo-element img {
+  top: 30px;
+  max-width: 30px;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  right: 150px;
+  bottom: 0px;
+}
+
+/*questo section end */
+
+/*questo-bottom section  start*/
+.questo-bottom {
+  padding-bottom: 10rem;
+  overflow: hidden;
+}
+
+.questo-bottom-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.questo-bottom-content ul {
+    display: flex;
+    width: max-content;
+}
+
+.questo-bottom-content ul li {
+    width: max-content;
+}
+
+.questo-bottom-content ul li a {
+    display: flex;
+    align-items: center;
+}
+
+.questo-bottom-content p {
+  font-size: 3rem;
+  font-family: "Prata", serif;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.questo-bottom-content img {
+  max-width: 20px;
+  width: max-content;
+  height: max-content;
+  margin: 0 20px 20px;
+}
+
+/*questo-bottom section end */
+
+/*brand-logo section start. */
+
+.brand-logo {
+  padding-bottom: 15rem;
+}
+
+.brand-logo-element {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.brand-logo-element img {
+  max-width: 150px;
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+/*brand-logo section end */
+
+/*cosa section start */
+
+.cosa {
+  padding-bottom: 5rem;
+}
+
+.cosa-left-part h4 {
+  font-size: 5rem;
+  font-family: "Prata", serif;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: 400;
+}
+
+.cosa-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.cosa-img img {
+  max-width: 200px;
+  width: 100%;
+  height: auto;
+}
+
+.cosa-right-part p {
+  font-family: "Syne", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.cosa-right-part p span {
+  color: #ed6b23;
+}
+
+.cosa-bottom p {
+  font-family: "Syne", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: uppercase;
+  color: #ed6b23;
+  text-align: left;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+}
+
+/*cosa section end */
+
+/*contact section start */
+.contact {
+  padding-bottom: 10rem;
+  position: relative;
+}
+
+.contact-element .mail-part {
+  margin-bottom: 9rem;
+}
+
+.contact-element h4 {
+  font-family: "Prata", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 94px;
+  line-height: 110px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.contact-element p {
+  font-family: "Syne", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 42px;
+  line-height: 10px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.profile-img img {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: -49px;
+}
+
+/*contact section end */
+
+.footer {
+  border-top: 2px solid #303033;
+}
+
+.footer p {
+  padding-top: 2rem;
+  font-family: "Syne", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: uppercase;
+  color: #000000;
+  width: 100%;
+}
+
+
+
+
+
+div#example .js-marquee-wrapper {
+  width: max-content !important;
+  transform: translateX(1870px) !important;
+  animation: 17.1367s linear 0.1s infinite normal none running marqueeAnimation-8698213;
+  display: flex;
+  justify-content: space-between;
+}
+
+

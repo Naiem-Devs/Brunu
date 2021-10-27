@@ -1,0 +1,276 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1449px) {
+    .hero-element p {
+        font-size: 8rem;
+    }
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    html{
+        font-size: 40%;
+    }
+    .hero-element p {
+        font-size: 8rem;
+        max-width: 701px;
+    }
+
+.hero-element img {
+    width: 65px;
+}
+.hero-down-img.img-fluid {
+    margin: 100px 0;
+}
+
+.hero-down-img img {
+    margin-left: 100px;
+}
+
+.hero-down-img .circle {
+}
+.questo-element img {
+    right: -50px;
+}
+.contact-element h4 {
+    font-size: 70px;
+}
+
+.contact-element p {
+    font-size: 33px;
+}
+
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    html{
+        font-size: 40%;
+    }
+    .hero-element p {
+        font-size: 8rem;
+        max-width: 699px;
+    }
+
+.hero-element img {
+    width: 65px;
+}
+.hero-down-img.img-fluid {
+    margin: 100px auto;
+}
+
+.hero-down-img img {
+    margin-left: 100px;
+}
+
+.hero-down-img .circle {
+}
+.questo-element img {
+    right: 40px;
+}
+.contact-element h4 {
+    font-size: 70px;
+}
+
+.contact-element p {
+    font-size: 33px;
+}
+.hero-down-left {
+    max-width: 585px;
+    margin: auto;
+}
+
+.hero-down-right {
+    max-width: 585px;
+    margin: auto;
+}
+
+.hero-down-right p {
+    padding: 0;
+}
+
+.questo-element {
+    max-width: 585px;
+    margin: auto;
+}
+.profile-img {
+    margin-left: -45px;
+}
+
+}
+ 
+
+/* SM Small Device :320px. */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .hero-element p {
+        font-size: 34px;
+        line-height: 47px;
+    }
+    
+    .contact-element p {
+        font-size: 14px;
+    }
+    
+    .contact-element h4 {
+        font-size: 35px;
+        line-height: 48px;
+        margin-bottom: 7px;
+    }
+    
+    .hero-down-img {
+        margin: auto;
+        margin-top: 80px;
+    }
+    
+    .brand-logo-element {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 350px;
+    }
+    
+    .hero-down-left p {
+        padding: 0;
+        font-size: 18px;
+        margin-top: 50px;
+        line-height: 21px;
+    }
+    
+    .hero-down-right p {
+        padding: 0;
+        font-size: 18px;
+        margin-bottom: 25px;
+        line-height: 23px;
+    }
+    
+    section.hero-down .row {
+        flex-direction: column-reverse;
+    }
+    
+    .hero-element img {
+        position: unset;
+        width: 40px;
+        float: right;
+        margin-right: 10%;
+    }
+    
+    .questo-element p {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    
+    section.questo {
+        padding: 0px 0 90px;
+    }
+    
+    .questo-element img {
+        width: 18px;
+        top: 55px;
+    }
+    
+    .hero-down-img img {
+    max-width: 200px;
+    }
+    
+    .brand-logo-element img {
+        max-width: 100px;
+        margin: 0;
+    }
+    
+    section.questo-bottom {
+        padding-bottom: 35px;
+    }
+    
+    .cosa-left-part h4 {
+        font-size: 24px;
+        line-height: 32px;
+        width: 285px;
+    }
+    
+    .cosa-img img {
+        max-width: 70px;
+    }
+    
+    .cosa-img {
+        margin-top: 0px;
+        position: absolute;
+    }
+    
+    .cosa-right-part p {
+        font-size: 20px;
+        line-height: 24px;
+        padding-left: 100px;
+    }
+    
+    .cosa-bottom p {
+        font-size: 14px;
+        margin: 35px 0 0;
+    }
+    
+    .contact-element .mail-part {
+        margin-bottom: 30px;
+    }
+    
+    .profile-img img {
+        position: unset;
+        max-width: unset;
+        width: 179px;
+        float: right;
+        margin-top: -90px;
+    }
+    
+    section.contact {
+        padding-bottom: 0;
+        max-width: 400px;
+        margin: auto;
+    }
+    
+    .footer p {
+        font-size: 14px;
+        line-height: 16px;
+        padding: 10px 0 0;
+    }
+    
+    section.cosa {
+        padding-bottom: 20px;
+        max-width: 400px;
+        margin: auto;
+    }
+    section.hero-down {
+        padding-top: 25px;
+    }
+    
+    .hero-down-img .circle {
+        max-width: 80px;
+        top: -37px;
+    }
+    section.navbar .row {
+        align-items: center;
+    }
+    
+    section.navbar {
+        padding-top: 20px;
+    }
+    
+    .nav-left img {
+        max-width: unset;
+        width: 245px;
+    }
+    section.brand-logo {
+        padding-bottom: 50px;
+    }
+    
+    .container {
+        max-width: 400px;
+    }
+
+}
+
+
+
+
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+ 
+}
